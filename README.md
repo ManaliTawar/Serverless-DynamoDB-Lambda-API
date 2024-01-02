@@ -33,9 +33,10 @@
 1. Associate the integrations you created with their respective routes.
 
 ### Step 7: Test Your API
-1. Go back to the API Gateway console and select the "Test" tab for your API.
-2. Use the provided testing interface to send requests (GET, POST, PUT, DELETE).
-3. Inspect the responses for successful interactions.
-4. Optionally, use external tools like curl or Postman to test your API.
+To make sure that your API is working, we use curl
+To get the URL to invoke your API Choose your API.
+Note your API's invoke URL. It appears under Invoke URL on the Details page.
+
+
 
 Now, when you invoke your HTTP API, API Gateway will route the requests to your Lambda function, which interacts with DynamoDB. Ensure that your IAM user has the necessary permissions for Lambda, DynamoDB, and API Gateway to avoid any access issues.
